@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beers",
+  "info": {
+    "singularName": "beer",
+    "pluralName": "beers",
+    "displayName": "beer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "bitterness": {
+      "type": "string",
+      "required": true
+    },
+    "abv": {
+      "type": "string",
+      "required": true
+    },
+    "detail": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "pair": {
+      "type": "string",
+      "required": true
+    },
+    "cover_url": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
