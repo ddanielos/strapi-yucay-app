@@ -2,7 +2,7 @@
   "name": "strapi-yucay",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Yucay Brewery backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -16,7 +16,7 @@
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "dany-dev.dev"
   },
   "strapi": {
     "uuid": "7f7e6784-922c-4604-9885-dc7391e67807"
