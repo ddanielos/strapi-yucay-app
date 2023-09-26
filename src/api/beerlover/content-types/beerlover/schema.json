@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beerlovers",
+  "info": {
+    "singularName": "beerlover",
+    "pluralName": "beerlovers",
+    "displayName": "beerlover"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
